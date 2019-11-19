@@ -1,5 +1,9 @@
 Hoy da más detalles que los q puse en el guasap del grupo:
 
+Poniendo esto:
+ - http://127.0.0.1:5000/users
+ - {"name": "jose", "password": "lalala", "age": 36}
+
 Esto es lo que da al hacer SEND del POST:
 
 WARNING: This is a development server. Do not use it in a production deployment.
