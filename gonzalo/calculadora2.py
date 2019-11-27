@@ -1,6 +1,5 @@
 
-def calcular(primer_numero, segundo_numero):
-    operacion = input(" operación? < +  ,  -  ,   x  ,  / > : ")
+def calcular(primer_numero, operacion, segundo_numero):
 
     if operacion == '+':
         resultado = primer_numero + segundo_numero
@@ -16,9 +15,10 @@ def calcular(primer_numero, segundo_numero):
         print(f'resultado: {resultado}')
 
     primer_numero = resultado
+    operacion = input(" operación? < +  ,  -  ,   x  ,  / > : ")
     segundo_numero = int(input(" -> siguiente número: "))
 
-    calcular(primer_numero, segundo_numero)
+    calcular(primer_numero, operacion, segundo_numero)
 
 
 # --------
